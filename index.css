@@ -1,8 +1,9 @@
 #dodger {
-  background-color: white;
+  background-color: rgb(173, 243, 10);
   height: 20px;
   position: absolute;
   width: 40px;
+  border-radius: 50%;
 }
 
 #game {
@@ -52,4 +53,11 @@
   left: 0;
   position: absolute;
   width: 9px;
+}
+
+.obstacles{
+  background: orangered;
+  height: 60px;
+  width: 20px;
+  position: absolute;
 }
